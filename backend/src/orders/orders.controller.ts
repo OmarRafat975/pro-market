@@ -11,9 +11,9 @@ import {
 import { OrdersService } from './orders.service';
 import { CreateOrderDto } from './dto/create-order.dto';
 import { UpdateOrderDto } from './dto/update-order.dto';
-import { AuthAccessGuard } from 'src/auth/guards/auth-access.guard';
-import { AdminRoleGuard } from 'src/auth/guards/admin-role.guard';
-import { type JwtUser, User } from 'src/auth/decorators/user.decorator';
+import { AuthAccessGuard } from '../auth/guards/auth-access.guard';
+import { AdminRoleGuard } from '../auth/guards/admin-role.guard';
+import { type JwtUser, User } from '../auth/decorators/user.decorator';
 
 @UseGuards(AuthAccessGuard)
 @Controller('orders')

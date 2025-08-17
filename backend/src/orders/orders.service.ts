@@ -4,8 +4,8 @@ import { UpdateOrderDto } from './dto/update-order.dto';
 import { InjectModel } from '@nestjs/mongoose';
 import { Order } from './schemas/order.schema';
 import { Model, Types } from 'mongoose';
-import { JwtUser } from 'src/auth/decorators/user.decorator';
-import { Product } from 'src/products/schemas/product.schema';
+import { JwtUser } from '../auth/decorators/user.decorator';
+import { Product } from '../products/schemas/product.schema';
 
 @Injectable()
 export class OrdersService {
