@@ -14,8 +14,8 @@ import {
 import { ProductsService } from './products.service';
 import { CreateProductDto } from './dto/create-product.dto';
 import { UpdateProductDto } from './dto/update-product.dto';
-import { AuthAccessGuard } from 'src/auth/guards/auth-access.guard';
-import { AdminRoleGuard } from 'src/auth/guards/admin-role.guard';
+import { AuthAccessGuard } from '../auth/guards/auth-access.guard';
+import { AdminRoleGuard } from '../auth/guards/admin-role.guard';
 import { ProductsQueryDto } from './dto/products-query.dto';
 
 @Controller('products')
