@@ -1,0 +1,540 @@
+[{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452ae7"
+  },
+  "name": "iPhone 14",
+  "description": "Apple iPhone 14 Pro with A16 Bionic chip, 6.1-inch display, and 128GB storage.",
+  "price": 999.99,
+  "category": "Smartphones",
+  "image": "https://res.cloudinary.com/dgyadjbt4/image/upload/v1745280402/lfaktslahs54a70ibti1.png",
+  "stock": 14,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452aea"
+  },
+  "name": "OnePlus 11",
+  "description": "OnePlus flagship with Snapdragon 8 Gen 2, 100W fast charging, and AMOLED display.",
+  "price": 749.99,
+  "category": "Smartphones",
+  "image": "https://res.cloudinary.com/dgyadjbt4/image/upload/v1755414737/0c0b713df5d1f8f99b52956a17182bfc_syajou.webp",
+  "stock": 18,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452aeb"
+  },
+  "name": "Xiaomi Mi 13",
+  "description": "Xiaomi Mi 13 with Snapdragon chip, Leica camera system, and 5G connectivity.",
+  "price": 699.99,
+  "category": "Smartphones",
+  "image": "https://res.cloudinary.com/dgyadjbt4/image/upload/v1755414854/Xiaomi-Redmi-13_fk0tav.webp",
+  "stock": 30,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452aec"
+  },
+  "name": "MacBook Air M2",
+  "description": "Apple MacBook Air with M2 chip, 13.6-inch Retina display, and 256GB SSD.",
+  "price": 1199.99,
+  "category": "Laptops",
+  "image": "https://res.cloudinary.com/dgyadjbt4/image/upload/v1745282026/mptcbf1yxkfyo1km4uqj.jpg",
+  "stock": 12,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452aed"
+  },
+  "name": "Dell XPS 15",
+  "description": "High-performance 15-inch laptop with Intel Core i7, 16GB RAM, and 512GB SSD.",
+  "price": 1499,
+  "category": "Laptops",
+  "image": "https://res.cloudinary.com/dgyadjbt4/image/upload/v1745282027/hhjpllm0ur0jgzfvfn79.png",
+  "stock": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452aee"
+  },
+  "name": "HP Spectre x360",
+  "description": "Convertible laptop with touchscreen, Intel i7, 16GB RAM, and 1TB SSD.",
+  "price": 1399.99,
+  "category": "Laptops",
+  "image": "https://res.cloudinary.com/dgyadjbt4/image/upload/v1745282087/aswqlfszgiqq1fguxxd9.jpg",
+  "stock": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452aef"
+  },
+  "name": "Lenovo ThinkPad X1 Carbon",
+  "description": "Business laptop with Intel Core i7, 16GB RAM, and 512GB SSD.",
+  "price": 1699.99,
+  "category": "Laptops",
+  "image": "https://res.cloudinary.com/dgyadjbt4/image/upload/v1745282061/owz5tguumoiqvtb4qgu1.webp",
+  "stock": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452ae8"
+  },
+  "name": "Samsung Galaxy S23",
+  "description": "Samsung Galaxy S23 with Snapdragon 8 Gen 2 processor and triple camera system.",
+  "price": 899.99,
+  "category": "Smartphones",
+  "image": "https://res.cloudinary.com/dgyadjbt4/image/upload/v1755414991/Samsung-Galaxy-S23-Ultra_snvsse.webp",
+  "stock": 20,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452ae9"
+  },
+  "name": "Google Pixel 7 Pro",
+  "description": "Pixel 7 Pro with Google Tensor G2 chip, 6.7-inch OLED display, and advanced AI camera.",
+  "price": 799.99,
+  "category": "Smartphones",
+  "image": "https://res.cloudinary.com/dgyadjbt4/image/upload/v1755415028/google-pixel-7-pro-5g-google-pixel-7-pro-5g-ennap-com-1_icjclc.webp",
+  "stock": 16,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452af2"
+  },
+  "name": "Bose QuietComfort 45",
+  "description": "Comfortable wireless noise-cancelling headphones with crystal-clear sound.",
+  "price": 329.99,
+  "category": "Audio",
+  "image": "https://res.cloudinary.com/dgyadjbt4/image/upload/v1755415087/SCA2aj9p63DU7LTBKRiwfH_vzvvz7.jpg",
+  "stock": 18,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452af3"
+  },
+  "name": "JBL Flip 6",
+  "description": "Portable waterproof Bluetooth speaker with punchy bass and 12h playtime.",
+  "price": 129.99,
+  "category": "Audio",
+  "image": "https://res.cloudinary.com/dgyadjbt4/image/upload/v1755415152/614f5R8ReXL._UF894_1000_QL80__ihwcid.jpg",
+  "stock": 40,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452af4"
+  },
+  "name": "Apple AirPods Pro 2",
+  "description": "Active noise-cancelling earbuds with Adaptive Transparency and spatial audio.",
+  "price": 249.99,
+  "category": "Audio",
+  "image": "https://res.cloudinary.com/dgyadjbt4/image/upload/v1755415197/Apple-AirPods-Pro-2nd-Generation-Lightning_7e8598be-0a04-4938-98be-765f1fe80447.2f2187eed7001354fb4911fe454dc0d2_hzs7c0.webp",
+  "stock": 35,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452af5"
+  },
+  "name": "Sennheiser HD 660S",
+  "description": "Audiophile open-back headphones with natural sound and wide soundstage.",
+  "price": 499.99,
+  "category": "Audio",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYwdAKSORny6ZW7AC4l20br6_lzCH9jHV_Zg&s",
+  "stock": 12,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452af7"
+  },
+  "name": "Samsung QN90B Neo QLED",
+  "description": "Samsung QLED 65-inch 4K Smart TV with HDR and AI upscaling.",
+  "price": 1399.99,
+  "category": "Televisions",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0-vDN6YYLA5Tp_kR4PX3lmHPk9raT0nPCRg&s",
+  "stock": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452af6"
+  },
+  "name": "LG 55\" 4K Smart TV",
+  "description": "LG UHD Smart TV with HDR10, webOS, and voice assistant compatibility.",
+  "price": 699.99,
+  "category": "Televisions",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5TJKOG3eMJC1dKEzPu3xqgaTU-5tcXbAqJQ&s",
+  "stock": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452af8"
+  },
+  "name": "Sony Bravia XR A80K",
+  "description": "65-inch OLED 4K TV with XR Cognitive Processor and Dolby Vision.",
+  "price": 1699.99,
+  "category": "Televisions",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRNpf2hjS2OAKc1mPygBymeMfskmkMno1jiw&s",
+  "stock": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452af9"
+  },
+  "name": "TCL 6-Series Roku TV",
+  "description": "Affordable 55-inch 4K HDR Roku Smart TV with Dolby Vision.",
+  "price": 649.99,
+  "category": "Televisions",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmobFKcgHuS7l6WnRt6pxxqV7m0QODGWyjPQ&s",
+  "stock": 15,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452afa"
+  },
+  "name": "Hisense U8H QLED TV",
+  "description": "65-inch QLED with HDR10+, Dolby Vision, and Google TV support.",
+  "price": 999.99,
+  "category": "Televisions",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsNqj0xlfsoFCNU0w9wzrKz_5DzDLvfFjajg&s",
+  "stock": 9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452afb"
+  },
+  "name": "PlayStation 5",
+  "description": "Sony PlayStation 5 console with ultra-fast SSD and DualSense controller.",
+  "price": 499.99,
+  "category": "Gaming",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrVIGvlSXIWZ3YiPRpVOtK28Api1aUYees6w&s",
+  "stock": 14,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452afc"
+  },
+  "name": "Xbox Series X",
+  "description": "Microsoft Xbox Series X console with 4K gaming and Game Pass support.",
+  "price": 499.99,
+  "category": "Gaming",
+  "image": "https://m.media-amazon.com/images/I/31695N04ZwL._UF1000,1000_QL80_.jpg",
+  "stock": 12,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452afd"
+  },
+  "name": "Nintendo Switch OLED",
+  "description": "Nintendo Switch with OLED screen, detachable Joy-Cons, and portable design.",
+  "price": 349.99,
+  "category": "Gaming",
+  "image": "https://kolshzin.com/wp-content/uploads/2025/06/Nintendo-Switch-OLED-3.webp",
+  "stock": 20,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452afe"
+  },
+  "name": "Logitech G Pro X",
+  "description": "Professional gaming headset with detachable mic and surround sound.",
+  "price": 129.99,
+  "category": "Gaming",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMqzcTevjvWjCbUsU-fmCN9Rk6B8C4nULMiA&s",
+  "stock": 25,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452aff"
+  },
+  "name": "Razer DeathAdder V3",
+  "description": "Ergonomic gaming mouse with high DPI optical sensor and RGB lighting.",
+  "price": 69.99,
+  "category": "Gaming",
+  "image": "https://hardwaremarket.net/wp-content/uploads/2022/10/razer_deathadder_v3_pro_2022_wh_render01.jpg",
+  "stock": 40,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452b00"
+  },
+  "name": "Dyson V15 Detect",
+  "description": "Dyson cordless vacuum cleaner with laser dust detection and HEPA filter.",
+  "price": 699.99,
+  "category": "Home Appliances",
+  "image": "https://echotecheg.com/wp-content/uploads/2024/10/Untitled-design-2024-11-12T102936.268-min.png",
+  "stock": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452b01"
+  },
+  "name": "iRobot Roomba j7+",
+  "description": "Smart robot vacuum with auto-empty dock and advanced obstacle avoidance.",
+  "price": 799.99,
+  "category": "Home Appliances",
+  "image": "https://cdn.media.amplience.net/i/irobot/j7Plus_Photo_Studio_360Im-V1-01-01?fmt=auto&$pdp-img-desktop-prd$&img404=404&v=1&locale=en-US,*",
+  "stock": 8,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452b02"
+  },
+  "name": "Philips Air Fryer XXL",
+  "description": "Large capacity air fryer for oil-free cooking and smart presets.",
+  "price": 249.99,
+  "category": "Home Appliances",
+  "image": "https://www.eastasiaeg.com/media/catalog/product/cache/7cc761d78ccccdcc12015db63d803651/h/d/hd9285-93-3.jpg",
+  "stock": 18,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452b03"
+  },
+  "name": "Samsung Family Hub Refrigerator",
+  "description": "Smart fridge with touchscreen display, cameras, and Wi-Fi connectivity.",
+  "price": 2799.99,
+  "category": "Home Appliances",
+  "image": "data:image/jpeg;base64,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",
+  "stock": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452b04"
+  },
+  "name": "LG Washing Machine AI DD",
+  "description": "Front-load washer with AI direct drive technology and steam wash.",
+  "price": 999.99,
+  "category": "Home Appliances",
+  "image": "https://cairosales.com/101960-large_default/lg-11-kg-vivace-washing-machine-with-ai-dd-technology-f4y9ewg2pv.jpg",
+  "stock": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452af1"
+  },
+  "name": "Sony WH-1000XM5",
+  "description": "Noise-cancelling wireless headphones with premium sound and 30h battery life.",
+  "price": 349.99,
+  "category": "Audio",
+  "image": "https://metapod.com/cdn/shop/files/sony-wh-1000xm5-noise-cancelling-wireless-headphones-34338795192516.jpg?v=1754022978&width=1500",
+  "stock": 25,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452af0"
+  },
+  "name": "Asus ROG Zephyrus G15",
+  "description": "Gaming laptop with AMD Ryzen 9, RTX 3070, 16GB RAM, and 1TB SSD.",
+  "price": 1799.99,
+  "category": "Laptops",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjPk8DgV4X3JaiqTgK-6n1vhE3-zm5cMEL2g&s",
+  "stock": 7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452b08"
+  },
+  "name": "Ring Video Doorbell Pro",
+  "description": "Smart video doorbell with 1080p HD video, motion detection, and app alerts.",
+  "price": 249.99,
+  "category": "Smart Home",
+  "image": "https://images.thdstatic.com/productImages/594e4797-3662-478d-b18f-b43d8e4601d9/svn/white-ring-doorbell-cameras-b0brrxp8c4-64_600.jpg",
+  "stock": 18,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452b07"
+  },
+  "name": "Philips Hue Starter Kit",
+  "description": "Smart lighting system with 3 bulbs, bridge, and app control.",
+  "price": 199.99,
+  "category": "Smart Home",
+  "image": "https://www.assets.signify.com/is/image/Signify/8719514409408-929002468913-Hue-WCA_11W-A60-B22-3set-sb-ANZ-APP?wid=1280&hei=960&qlt=82",
+  "stock": 25,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452b0a"
+  },
+  "name": "Apple Watch Series 8",
+  "description": "Smartwatch with fitness tracking, ECG, blood oxygen, and crash detection.",
+  "price": 399.99,
+  "category": "Wearables",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLE8d6fNONEFAVK_q_nGMj39ZE8bkb9834hA&s",
+  "stock": 22,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452b09"
+  },
+  "name": "Arlo Pro 4 Camera System",
+  "description": "Wireless security camera system with 2K HDR video and night vision.",
+  "price": 499.99,
+  "category": "Smart Home",
+  "image": "https://www.arlo.com/dw/image/v2/BDFZ_PRD/on/demandware.static/-/Sites-master-catalog-arlo/default/dwbdbaf08b/Products/HiRes%20Images/Go/2023/04%20-%20GO%202%20LTE%20-%20Wireless%20Camera.png?sw=840&sh=723&sm=fit",
+  "stock": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452b0b"
+  },
+  "name": "Samsung Galaxy Watch 5",
+  "description": "Smartwatch with body composition tracking, sleep analysis, and LTE option.",
+  "price": 329.99,
+  "category": "Wearables",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt8jgG-jfCP1fvb8eLZzJ_DLwA3MVQ2p8O7g&s",
+  "stock": 18,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452b0d"
+  },
+  "name": "Garmin Forerunner 955",
+  "description": "Premium GPS running watch with solar charging and performance metrics.",
+  "price": 499.99,
+  "category": "Wearables",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFd7p-8O-a-LUTknKiqqcZS-uWrmmAA_iJlw&s",
+  "stock": 12,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452b0c"
+  },
+  "name": "Fitbit Charge 5",
+  "description": "Fitness tracker with stress management, sleep tracking, and GPS.",
+  "price": 179.99,
+  "category": "Wearables",
+  "image": "https://mobilemob.com.au/cdn/shop/articles/opti-fitbit-charge-5-tracker.jpg?v=1630131372&width=1100",
+  "stock": 30,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452b10"
+  },
+  "name": "Logitech MX Master 3",
+  "description": "Advanced wireless mouse with ergonomic design and programmable buttons.",
+  "price": 99.99,
+  "category": "Accessories",
+  "image": "https://ae01.alicdn.com/kf/S1f9f8e6ee484481085608257e816b9b7M.jpg",
+  "stock": 35,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452b0f"
+  },
+  "name": "Anker PowerCore 26800",
+  "description": "High-capacity power bank with dual USB ports and fast charging.",
+  "price": 59.99,
+  "category": "Accessories",
+  "image": "https://m.media-amazon.com/images/I/51H5mWmnEsL._AC_SL1500_.jpg",
+  "stock": 50,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452b0e"
+  },
+  "name": "Oura Ring Gen 3",
+  "description": "Smart ring for sleep, readiness, and activity tracking with sleek design.",
+  "price": 299.99,
+  "category": "Wearables",
+  "image": "https://m.media-amazon.com/images/I/717Wxs+uG9L.jpg",
+  "stock": 20,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452b11"
+  },
+  "name": "Apple MagSafe Charger",
+  "description": "Magnetic wireless charger for iPhone with fast charging support.",
+  "price": 39.99,
+  "category": "Accessories",
+  "image": "https://f.nooncdn.com/p/v1669218384/N45055575A_1.jpg?width=480",
+  "stock": 60,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452b12"
+  },
+  "name": "SanDisk Extreme 1TB SSD",
+  "description": "Portable high-speed NVMe SSD with USB-C and rugged design.",
+  "price": 149.99,
+  "category": "Accessories",
+  "image": "https://f.nooncdn.com/p/v1575625584/N21187842A_5.jpg?width=480",
+  "stock": 25,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452b05"
+  },
+  "name": "Amazon Echo Show 10",
+  "description": "Smart display with Alexa voice assistant and rotating screen.",
+  "price": 249.99,
+  "category": "Smart Home",
+  "image": "https://m.media-amazon.com/images/I/51mZTrzrBqL._UF894,1000_QL80_.jpg",
+  "stock": 15,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a17fe0d2b188d95c452b06"
+  },
+  "name": "Google Nest Hub Max",
+  "description": "10-inch smart display with Google Assistant and video calling.",
+  "price": 229.99,
+  "category": "Smart Home",
+  "image": "https://images-cdn.ubuy.co.in/64c28efb991472214d187526-google-nest-hub-max-charcoal.jpg",
+  "stock": 20,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a18959b8f00b564a334308"
+  },
+  "name": "hp zbook",
+  "description": "best laptop",
+  "price": 200,
+  "category": "Laptops",
+  "image": "asd",
+  "stock": 3,
+  "__v": 0
+}]

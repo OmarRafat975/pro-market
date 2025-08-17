@@ -1,0 +1,512 @@
+{
+    "info": {
+        "name": "My Project",
+        "description": "Comprehensive collection for interacting with the Indstrex backend. Variables: {{base_url}}, {{access_token}}, {{refresh_token}}, {{vendor_id}}, {{product_id}}.",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "ProMarket",
+            "description": "",
+            "item": [
+                {
+                    "name": "signup",
+                    "description": "",
+                    "event": [],
+                    "auth": {},
+                    "request": {
+                        "auth": {},
+                        "method": "POST",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"email\": \"omar1@email.com\",\n    \"password\": \"123456@Omar\"\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/auth/signup",
+                            "path": [
+                                "auth",
+                                "signup"
+                            ],
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        }
+                    },
+                    "response": [],
+                    "protocolProfileBehavior": {
+                        "strictSSL": false,
+                        "followRedirects": true
+                    }
+                },
+                {
+                    "name": "login",
+                    "description": "",
+                    "event": [],
+                    "auth": {},
+                    "request": {
+                        "auth": {},
+                        "method": "POST",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"email\": \"omar@email.com\",\n    \"password\": \"123456@Omar\"\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/auth/login",
+                            "path": [
+                                "auth",
+                                "login"
+                            ],
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        }
+                    },
+                    "response": [],
+                    "protocolProfileBehavior": {
+                        "strictSSL": false,
+                        "followRedirects": true
+                    }
+                },
+                {
+                    "name": "refreshToken",
+                    "description": "",
+                    "event": [],
+                    "auth": {},
+                    "request": {
+                        "auth": {},
+                        "method": "GET",
+                        "body": {},
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/auth/refresh",
+                            "path": [
+                                "auth",
+                                "refresh"
+                            ],
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        }
+                    },
+                    "response": [],
+                    "protocolProfileBehavior": {
+                        "strictSSL": false,
+                        "followRedirects": true
+                    }
+                },
+                {
+                    "name": "CreateProduct",
+                    "description": "",
+                    "event": [],
+                    "auth": {},
+                    "request": {
+                        "auth": {
+                            "type": "bearer",
+                            "bearer": [
+                                {
+                                    "key": "token",
+                                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODllNjgxZTA5YTdiZWRkN2MwNmUwNjciLCJyb2xlIjoiYWRtaW4iLCJlbWFpbCI6Im9tYXIxQGVtYWlsLmNvbSIsImlhdCI6MTc1NTI2Mjg3OCwiZXhwIjoxNzU1MjYzNDc4fQ.KyJ8BD_4iATD9-5ZeHi5VZlsz5KKqoRI_kE-g5I7f6w",
+                                    "type": "string"
+                                }
+                            ]
+                        },
+                        "method": "POST",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"name\":\"headset\",\n    \"description\":\"a new good headset with good voice quality\",\n    \"price\": 500,\n    \"category\": \"accessories\",\n    \"image\":\"sdas\",\n    \"stock\": 25\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/products",
+                            "path": [
+                                "products"
+                            ],
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        }
+                    },
+                    "response": [],
+                    "protocolProfileBehavior": {
+                        "strictSSL": false,
+                        "followRedirects": true
+                    }
+                },
+                {
+                    "name": "Get All Products",
+                    "description": "",
+                    "event": [],
+                    "auth": {},
+                    "request": {
+                        "auth": {},
+                        "method": "GET",
+                        "body": {},
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/products",
+                            "path": [
+                                "products"
+                            ],
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "query": [
+                                {
+                                    "key": "category",
+                                    "value": "accessories",
+                                    "description": "group",
+                                    "type": "string"
+                                },
+                                {
+                                    "key": "limit",
+                                    "value": "1",
+                                    "description": "",
+                                    "type": "string"
+                                },
+                                {
+                                    "key": "page",
+                                    "value": "1",
+                                    "description": "",
+                                    "type": "string"
+                                }
+                            ],
+                            "variable": []
+                        }
+                    },
+                    "response": [],
+                    "protocolProfileBehavior": {
+                        "strictSSL": false,
+                        "followRedirects": true
+                    }
+                },
+                {
+                    "name": "Get Product By ID",
+                    "description": "",
+                    "event": [],
+                    "auth": {},
+                    "request": {
+                        "auth": {},
+                        "method": "GET",
+                        "body": {},
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/products/689f2854de8aea5195c4b765",
+                            "path": [
+                                "products",
+                                "689f2854de8aea5195c4b765"
+                            ],
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        }
+                    },
+                    "response": [],
+                    "protocolProfileBehavior": {
+                        "strictSSL": false,
+                        "followRedirects": true
+                    }
+                },
+                {
+                    "name": "Update Product By Id",
+                    "description": "",
+                    "event": [],
+                    "auth": {},
+                    "request": {
+                        "auth": {
+                            "type": "bearer",
+                            "bearer": [
+                                {
+                                    "key": "token",
+                                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODllNjgxZTA5YTdiZWRkN2MwNmUwNjciLCJyb2xlIjoiYWRtaW4iLCJlbWFpbCI6Im9tYXIxQGVtYWlsLmNvbSIsImlhdCI6MTc1NTI2Mjg3OCwiZXhwIjoxNzU1MjYzNDc4fQ.KyJ8BD_4iATD9-5ZeHi5VZlsz5KKqoRI_kE-g5I7f6w",
+                                    "type": "string"
+                                }
+                            ]
+                        },
+                        "method": "PATCH",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"description\":\"a new good headphone with good voice quality \"\n\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/products/689f2854de8aea5195c4b765",
+                            "path": [
+                                "products",
+                                "689f2854de8aea5195c4b765"
+                            ],
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        }
+                    },
+                    "response": [],
+                    "protocolProfileBehavior": {
+                        "strictSSL": false,
+                        "followRedirects": true
+                    }
+                },
+                {
+                    "name": "Delete Product By ID",
+                    "description": "",
+                    "event": [],
+                    "auth": {},
+                    "request": {
+                        "auth": {
+                            "type": "bearer",
+                            "bearer": [
+                                {
+                                    "key": "token",
+                                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODllNjgxZTA5YTdiZWRkN2MwNmUwNjciLCJyb2xlIjoiYWRtaW4iLCJlbWFpbCI6Im9tYXIxQGVtYWlsLmNvbSIsImlhdCI6MTc1NTI2Mjg3OCwiZXhwIjoxNzU1MjYzNDc4fQ.KyJ8BD_4iATD9-5ZeHi5VZlsz5KKqoRI_kE-g5I7f6w",
+                                    "type": "string"
+                                }
+                            ]
+                        },
+                        "method": "DELETE",
+                        "body": {},
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/products/689f307e2742720e85c96781",
+                            "path": [
+                                "products",
+                                "689f307e2742720e85c96781"
+                            ],
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        }
+                    },
+                    "response": [],
+                    "protocolProfileBehavior": {
+                        "strictSSL": false,
+                        "followRedirects": true
+                    }
+                },
+                {
+                    "name": "Create Order",
+                    "description": "",
+                    "event": [],
+                    "auth": {},
+                    "request": {
+                        "auth": {
+                            "type": "bearer",
+                            "bearer": [
+                                {
+                                    "key": "token",
+                                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODllNGQ1ZjBlOGZkYzc0Njk3NDQwMDMiLCJyb2xlIjoidXNlciIsImVtYWlsIjoib21hckBlbWFpbC5jb20iLCJpYXQiOjE3NTUyNzEzNjQsImV4cCI6MTc1NTI3MTk2NH0.wvKpil-qd5lVl8sPSdVpWCDx2E8cvJT3ucqDU-WPDG0",
+                                    "type": "string"
+                                }
+                            ]
+                        },
+                        "method": "POST",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"items\": [{\"productId\": \"689f200f397067483708e5ae\", \"quantity\": \"5\" }]\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/orders",
+                            "path": [
+                                "orders"
+                            ],
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        }
+                    },
+                    "response": [],
+                    "protocolProfileBehavior": {
+                        "strictSSL": false,
+                        "followRedirects": true
+                    }
+                },
+                {
+                    "name": "Get All Orders",
+                    "description": "",
+                    "event": [],
+                    "auth": {},
+                    "request": {
+                        "auth": {
+                            "type": "bearer",
+                            "bearer": [
+                                {
+                                    "key": "token",
+                                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODllNjgxZTA5YTdiZWRkN2MwNmUwNjciLCJyb2xlIjoiYWRtaW4iLCJlbWFpbCI6Im9tYXIxQGVtYWlsLmNvbSIsImlhdCI6MTc1NTI3MjMwMiwiZXhwIjoxNzU1MjcyOTAyfQ.hMOFoIxl1n3XnWYBXk5stCJ0sg3K3hhvjWH9R0rKj5U",
+                                    "type": "string"
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "body": {},
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/orders/",
+                            "path": [
+                                "orders"
+                            ],
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        }
+                    },
+                    "response": [],
+                    "protocolProfileBehavior": {
+                        "strictSSL": false,
+                        "followRedirects": true
+                    }
+                },
+                {
+                    "name": "Get My Order",
+                    "description": "",
+                    "event": [],
+                    "auth": {},
+                    "request": {
+                        "auth": {
+                            "type": "bearer",
+                            "bearer": [
+                                {
+                                    "key": "token",
+                                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODllNGQ1ZjBlOGZkYzc0Njk3NDQwMDMiLCJyb2xlIjoidXNlciIsImVtYWlsIjoib21hckBlbWFpbC5jb20iLCJpYXQiOjE3NTUyNzI3MDQsImV4cCI6MTc1NTI3MzMwNH0.OLvuLndblxL4FUNkpT4xv4vT0AbsJYzKW3e4i9Kqsh0",
+                                    "type": "string"
+                                }
+                            ]
+                        },
+                        "method": "GET",
+                        "body": {},
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/orders/me",
+                            "path": [
+                                "orders",
+                                "me"
+                            ],
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        }
+                    },
+                    "response": [],
+                    "protocolProfileBehavior": {
+                        "strictSSL": false,
+                        "followRedirects": true
+                    }
+                },
+                {
+                    "name": "update Order Status",
+                    "description": "",
+                    "event": [],
+                    "auth": {},
+                    "request": {
+                        "auth": {
+                            "type": "bearer",
+                            "bearer": [
+                                {
+                                    "key": "token",
+                                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODllNjgxZTA5YTdiZWRkN2MwNmUwNjciLCJyb2xlIjoiYWRtaW4iLCJlbWFpbCI6Im9tYXIxQGVtYWlsLmNvbSIsImlhdCI6MTc1NTI3MjgyNCwiZXhwIjoxNzU1MjczNDI0fQ.itKcDc85dcEPXJHvro2PLhKyZevmWgmSNLivl-9wlz0",
+                                    "type": "string"
+                                }
+                            ]
+                        },
+                        "method": "PATCH",
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"status\":\"preparing\"\n}",
+                            "options": {
+                                "raw": {
+                                    "language": "json"
+                                }
+                            }
+                        },
+                        "header": [],
+                        "url": {
+                            "raw": "{{baseUrl}}/orders/689f51ec96c0d16d17c57d50/status",
+                            "path": [
+                                "orders",
+                                "689f51ec96c0d16d17c57d50",
+                                "status"
+                            ],
+                            "host": [
+                                "{{baseUrl}}"
+                            ],
+                            "query": [],
+                            "variable": []
+                        }
+                    },
+                    "response": [],
+                    "protocolProfileBehavior": {
+                        "strictSSL": false,
+                        "followRedirects": true
+                    }
+                }
+            ],
+            "event": [
+                {
+                    "listen": "prerequest",
+                    "script": {
+                        "exec": [],
+                        "type": "text/javascript",
+                        "packages": {}
+                    }
+                },
+                {
+                    "listen": "test",
+                    "script": {
+                        "exec": [],
+                        "type": "text/javascript",
+                        "packages": {}
+                    }
+                }
+            ],
+            "auth": {}
+        }
+    ],
+    "variable": [],
+    "event": [],
+    "auth": {}
+}
